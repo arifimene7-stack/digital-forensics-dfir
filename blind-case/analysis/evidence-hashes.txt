@@ -1,0 +1,3 @@
+039b4a018d0fc9d854f881d2d5772ddcad66cea5c0fef3c13dcba1383586031c  blind-case/evidence/admin-notes.txt
+551ef5b1906ba6bcfed5cb83e5b16b2a1fb290b4c773d9ef2e1c4157612225d6  blind-case/evidence/alert.log
+89ff59d54602c513757215933dc6bc54ddbabf6a23fdcbe44505e3575c07485f  blind-case/evidence/task-inventory.csv

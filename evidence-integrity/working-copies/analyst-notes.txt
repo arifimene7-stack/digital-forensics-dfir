@@ -1,0 +1,4 @@
+Training evidence package: DFIR-2026-001
+Evidence source: Created by the analyst for authorized laboratory practice.
+Data type: Synthetic.
+No real user credentials or private records are included.

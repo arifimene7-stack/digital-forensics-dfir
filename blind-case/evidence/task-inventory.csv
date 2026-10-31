@@ -1,0 +1,3 @@
+task_name,account,state,action,source
+SystemHealthCheck,SYSTEM,Enabled,/usr/local/bin/health-check.sh,synthetic-inventory
+DailyBackup,root,Enabled,/usr/local/bin/backup.sh,synthetic-inventory

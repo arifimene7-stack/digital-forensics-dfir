@@ -1,0 +1,4 @@
+evidence_id,description,source,original_path,working_copy,collection_time,timezone,sha256,status,notes
+EVD-001,Host events log,Analyst-generated synthetic data,evidence-integrity/originals/host-events.log,Pending,2026-10-31T14:30:25+01:00,Africa/Algiers,Pending,Registered,Original preserved
+EVD-002,File inventory,Analyst-generated synthetic data,evidence-integrity/originals/file-inventory.csv,Pending,2026-10-31T14:30:25+01:00,Africa/Algiers,Pending,Registered,Original preserved
+EVD-003,Analyst notes,Analyst-generated synthetic data,evidence-integrity/originals/analyst-notes.txt,Pending,2026-10-31T14:30:25+01:00,Africa/Algiers,Pending,Registered,Original preserved

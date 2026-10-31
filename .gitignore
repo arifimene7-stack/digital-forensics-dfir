@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+
+# Virtual machines and memory dumps
+*.vdi
+*.vmdk
+*.qcow2
+*.mem
+*.dmp
+*.raw
+
+# Temporary files
+*.tmp
+*.log~
+.DS_Store
+
+# Local machine information and raw live triage
+testdisk.log
+memory-forensics/day8/live-triage/
+memory-forensics/day8/process-analysis/
+
+# Local machine-specific reports

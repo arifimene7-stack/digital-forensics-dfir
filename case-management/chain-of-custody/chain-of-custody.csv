@@ -1,0 +1,3 @@
+record_id,evidence_id,date_time,timezone,from,to,action,purpose,sha256,notes
+COC-001,EVD-D4-001,2026-10-31T14:48:00,Africa/Algiers,Analyst,Forensic Workspace,Image creation,Create training image,74bdf9d5b168ce9a5d8fd7f23624adee755a93d0b7653f6ed9a4eba6fab56b5f,Synthetic training file
+COC-002,EVD-D4-001,2026-10-31T14:49:00,Africa/Algiers,Source Directory,Images Directory,Copy,Create forensic working copy,74bdf9d5b168ce9a5d8fd7f23624adee755a93d0b7653f6ed9a4eba6fab56b5f,Hashes verified identical

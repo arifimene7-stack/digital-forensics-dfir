@@ -1,0 +1,17 @@
+evidence_id,evidence_path,evidence_type,purpose,related_report,status
+EVD-001,evidence-integrity/originals/host-events.log,Synthetic log,Host event analysis,evidence-integrity/reports/integrity-report.md,Verified
+EVD-002,evidence-integrity/originals/file-inventory.csv,Synthetic inventory,File inventory analysis,evidence-integrity/reports/integrity-report.md,Verified
+EVD-003,evidence-integrity/originals/analyst-notes.txt,Synthetic notes,Investigation context,evidence-integrity/reports/integrity-report.md,Verified
+EVD-004,evidence-integrity/working-copies/,Working copies,Integrity comparison with originals,evidence-integrity/reports/integrity-report.md,Verified
+EVD-D4-001,disk-forensics/day4/source/training-disk.img,Raw training image,Disk acquisition exercise,disk-forensics/day4/reports/acquisition-report.md,Verified
+EVD-D4-002,disk-forensics/day4/images/training-disk-copy.img,Raw forensic copy,Bit-for-bit copy comparison,disk-forensics/day4/reports/acquisition-report.md,Verified
+EVD-D6-001,disk-forensics/day6/source/filesystem-lab.img,FAT16 training image,Filesystem examination,disk-forensics/day6/reports/day6-summary.md,Examined
+EVD-D6-002,disk-forensics/day6/analysis/sample-files/,Sample files,Filesystem metadata exercise,disk-forensics/day6/reports/metadata-analysis.md,Examined
+EVD-D7-001,disk-forensics/day7/working/deletion-lab.img,Working disk image,Deleted-file recovery exercise,disk-forensics/day7/reports/recovery-report.md,Examined
+EVD-D7-002,disk-forensics/day7/recovery/_VENTS.LOG,Recovered file,Recovery and hash comparison,disk-forensics/day7/reports/recovery-report.md,Recovered and verified
+EVD-D8-001,memory-forensics/day8/live-triage/,Live triage records,Process memory and network status observations,memory-forensics/day8/reports/live-triage-report.md,Collected
+EVD-D8-002,memory-forensics/day8/process-analysis/process-5603.txt,Process analysis record,Examination of Firefox process 5603,memory-forensics/day8/reports/live-triage-report.md,Examined
+EVD-D8-003,memory-forensics/day8/training-images/source-notes.md,Training source notes,Document memory-image reference and analysis status,memory-forensics/day8/reports/day8-summary.md,Reference only; no image acquired
+EVD-BL-001,blind-case/evidence/alert.log,Synthetic alert,Blind-case alert analysis,blind-case/reports/initial-assessment.md,Examined
+EVD-BL-002,blind-case/evidence/task-inventory.csv,Synthetic inventory,Scheduled-task context,blind-case/reports/initial-assessment.md,Examined
+EVD-BL-003,blind-case/evidence/admin-notes.txt,Synthetic administrative notes,Maintenance authorization context,blind-case/reports/initial-assessment.md,Examined

@@ -1,0 +1,3 @@
+efd34889595a896e7398b4de4c930d6e7be885a4d3e82caee27da991ab6b5b2e  evidence-integrity/working-copies/analyst-notes.txt
+05e6b8b646652f0a12cf40168e49799e13e074f619a22aa24ce06fd6f29d4e3d  evidence-integrity/working-copies/file-inventory.csv
+ee5bd815b5a848eb6b1fdc9f0cc2c00cc25122a464a6937066a6c250d180f3f1  evidence-integrity/working-copies/host-events.log

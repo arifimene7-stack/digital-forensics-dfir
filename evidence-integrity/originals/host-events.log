@@ -1,0 +1,5 @@
+2026-10-31T09:00:00+01:00 INFO system boot completed
+2026-10-31T09:05:00+01:00 INFO user training-user logged in
+2026-10-31T09:10:00+01:00 INFO service ssh started
+2026-10-31T09:15:00+01:00 INFO scheduled task completed
+2026-10-31T09:20:00+01:00 WARNING failed login attempt for testuser

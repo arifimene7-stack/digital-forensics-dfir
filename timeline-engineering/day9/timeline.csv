@@ -1,0 +1,11 @@
+timestamp,timezone,event,source,evidence_type,confidence,notes
+2026-10-31T09:00:00,+01:00,System boot completed,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:05:00,+01:00,User training-user logged in,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:10:00,+01:00,SSH service started,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:15:00,+01:00,Scheduled task completed,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:20:00,+01:00,Failed login attempt for testuser,host-events.log,Synthetic log,Medium,Does not prove an attack
+2026-10-31T14:56:13,+01:00,Source files modified,metadata-analysis.md,Filesystem metadata,High,Linux source-file timestamps
+2026-10-31T14:58:00,+01:00,Files listed in FAT16 image,metadata-analysis.md,Filesystem listing,Medium,FAT timestamp precision is limited
+UNKNOWN,UNKNOWN,events.log deleted from working image,recovery-report.md,Lab activity,High,Exact deletion time not recorded
+UNKNOWN,UNKNOWN,events.log recovered using TestDisk,recovery-report.md,Lab activity,High,Exact recovery time not recorded
+UNKNOWN,UNKNOWN,Firefox PID 5603 examined,live-triage-report.md,Live triage,High,Exact examination time not included here

@@ -1,0 +1,4 @@
+2026-10-31T10:15:00+01:00 ALERT Unfamiliar scheduled task detected
+2026-10-31T10:15:03+01:00 INFO Task name: SystemHealthCheck
+2026-10-31T10:15:04+01:00 INFO Task account: SYSTEM
+2026-10-31T10:15:05+01:00 INFO Task state: Enabled

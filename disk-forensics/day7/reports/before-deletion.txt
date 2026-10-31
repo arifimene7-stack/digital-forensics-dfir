@@ -1,0 +1,10 @@
+ Volume in drive : is DFIR_LAB   
+ Volume Serial Number is 30FA-1872
+Directory for ::/
+
+case     txt        26 2026-10-31  14:58 
+events   log        38 2026-10-31  14:58 
+login    txt        36 2026-10-31  14:58 
+        3 files                 100 bytes
+                         33 464 320 bytes free
+

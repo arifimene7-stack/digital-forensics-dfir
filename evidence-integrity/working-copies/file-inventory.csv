@@ -1,0 +1,4 @@
+filename,type,size_bytes,classification
+report.txt,document,1200,synthetic
+system.log,log,3500,synthetic
+backup.zip,archive,8000,synthetic
