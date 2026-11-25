@@ -1,0 +1,21 @@
+timestamp,timezone,event,source,evidence_type,confidence,notes
+2026-10-30 09:00:00,+01:00,INFO User session started,Activity Log,Synthetic activity/browser record,Medium,Synthetic training log
+2026-10-30 09:10:00,+01:00,Example Domain,Browser History,Synthetic activity/browser record,Medium,Visit count: 3
+2026-10-30 09:10:00,+01:00,INFO Browser opened,Activity Log,Synthetic activity/browser record,Medium,Synthetic training log
+2026-10-30 09:25:00,+01:00,Security Training,Browser History,Synthetic activity/browser record,Medium,Visit count: 2
+2026-10-30 09:25:00,+01:00,INFO Security training page visited,Activity Log,Synthetic activity/browser record,Medium,Synthetic training log
+2026-10-30 09:40:00,+01:00,Training Report,Browser History,Synthetic activity/browser record,Medium,Visit count: 1
+2026-10-30 09:41:00,+01:00,File downloaded,Browser Download,Synthetic activity/browser record,Medium,Path: /home/analyst/Downloads/report.pdf; Bytes: 204800
+2026-10-30 09:41:00,+01:00,INFO Training report downloaded,Activity Log,Synthetic activity/browser record,Medium,Synthetic training log
+2026-10-30 10:00:00,+01:00,INFO User session ended,Activity Log,Synthetic activity/browser record,Medium,Synthetic training log
+2026-10-31T09:00:00,+01:00,System boot completed,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:05:00,+01:00,User training-user logged in,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:10:00,+01:00,SSH service started,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:15:00,+01:00,Scheduled task completed,host-events.log,Synthetic log,Medium,Analyst-generated event
+2026-10-31T09:20:00,+01:00,Failed login attempt for testuser,host-events.log,Synthetic log,Medium,Does not prove an attack
+2026-10-31T14:56:13,+01:00,Source files modified,metadata-analysis.md,Filesystem metadata,High,Linux source-file timestamps
+2026-10-31T14:58:00,+01:00,Files listed in FAT16 image,metadata-analysis.md,Filesystem listing,Medium,FAT timestamp precision is limited
+2026-10-31T15:39:37+01:00,+01:00,Live triage snapshot captured,capture-time.txt,Live triage metadata,High,Capture time only; not the timestamp of every recorded activity.
+UNKNOWN,UNKNOWN,events.log deleted from working image,recovery-report.md,Lab activity,High,Exact deletion time not recorded
+UNKNOWN,UNKNOWN,events.log recovered using TestDisk,recovery-report.md,Lab activity,High,Exact recovery time not recorded
+UNKNOWN,UNKNOWN,Firefox PID 5603 examined,live-triage-report.md,Live triage,High,Exact examination time not included here

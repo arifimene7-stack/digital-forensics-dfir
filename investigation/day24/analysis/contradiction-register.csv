@@ -1,0 +1,7 @@
+ID,Compared_Evidence,Observed_Difference,Explanation_or_Status,Impact,Classification
+C-01,Historical manifest vs current host-events.log,Historical hash differs from both current copies,Documented publication redaction,Historical hash cannot validate current redacted content,Explained discrepancy
+C-02,NTFS STANDARD_INFORMATION vs FILE_NAME timestamps,Timestamp fields show different dates,Observed in MFT examination; cause not established,Timestamp interpretation requires caution,Unresolved inconsistency
+C-03,Timeline events vs capture timestamp,Activity records and live-triage capture time represent different event types,Capture time is collection time not activity time,Chronology must not be inferred from capture time,Interpretation difference
+C-04,Timeline records with known vs unknown timestamps,Three events have UNKNOWN timestamps,Original records do not provide exact times,Exact ordering cannot be established,Missing information
+C-05,FAT16 timestamps vs expected exact chronology,FAT timestamps have limited precision,Filesystem format limitation,Exact event time may be imprecise,Technical limitation
+C-06,Independent synthetic datasets vs unified incident narrative,Datasets originate from separate exercises,No independent evidence links them to one incident,No causal relationship can be asserted,Context limitation

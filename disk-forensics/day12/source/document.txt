@@ -1,0 +1,3 @@
+DFIR Day 12 - Synthetic Document
+Purpose: Metadata examination.
+Classification: Training evidence.

@@ -1,0 +1,3 @@
+Case: DFIR-DAY10
+Event: Unusual account activity reported.
+Status: Under investigation.

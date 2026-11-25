@@ -1,0 +1,10 @@
+Timestamp,Source,Event,URL,Details
+2026-10-30 09:00:00,Activity Log,INFO User session started,,Synthetic training log
+2026-10-30 09:10:00,Browser History,Example Domain,https://example.org/,Visit count: 3
+2026-10-30 09:10:00,Activity Log,INFO Browser opened,,Synthetic training log
+2026-10-30 09:25:00,Browser History,Security Training,https://example.org/security,Visit count: 2
+2026-10-30 09:25:00,Activity Log,INFO Security training page visited,,Synthetic training log
+2026-10-30 09:40:00,Browser History,Training Report,https://example.net/report.pdf,Visit count: 1
+2026-10-30 09:41:00,Browser Download,File downloaded,https://example.net/report.pdf,Path: /home/analyst/Downloads/report.pdf; Bytes: 204800
+2026-10-30 09:41:00,Activity Log,INFO Training report downloaded,,Synthetic training log
+2026-10-30 10:00:00,Activity Log,INFO User session ended,,Synthetic training log

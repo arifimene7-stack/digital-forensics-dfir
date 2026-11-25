@@ -1,0 +1,13 @@
+Evidence_ID,Source,Integrity_Status,Source_Reliability,Limitations,Overall_Assessment
+E01,FAT16 recovery,Original and recovered samples matched,High for sample comparison,Controlled laboratory deletion; exact deletion time unknown,High within laboratory scope
+E02,FAT16 filesystem analysis,Image examined,Medium,Limited FAT timestamp precision,Medium
+E03,NTFS analysis,Working image examined,Medium,Timestamp inconsistency; LogFile transactions uninterpreted,Medium
+E04,ext4 analysis,Extracted files matched source samples,High for extracted sample comparison,Journal transactions uninterpreted,Medium
+E05,Browser artifacts,Working database matched source,High for copy integrity,Synthetic records; no independent user attribution,High within laboratory scope
+E06,File carving,Recovered PDF matched source,High for recovered sample comparison,Minimal PDF; fragmentation not tested,High within laboratory scope
+E07,Memory evidence assessment,No RAM image available,Not applicable,No memory-image analysis performed,Insufficient
+E08,Process snapshot,Live-triage text available,Medium,Point-in-time snapshot; no RAM image,Limited
+E09,Network snapshot,Live-triage text available,Medium,No packet capture or payload inspection,Limited
+E10,Process-network correlation,Two PIDs matched process records,Medium,Depends on accuracy and timing of source snapshots,Limited
+E11,Master timeline,20 records consolidated,Medium,Three unknown timestamps; independent datasets,Limited
+E12,Historical host-events hash,Historical hash differs from current copies,Historical verification failed for current files,Documented redaction explains change,Not valid for historical integrity claim

@@ -1,0 +1,4 @@
+Case: DFIR-DAY11
+Filesystem: ext4
+Event: Suspicious file activity reported.
+Status: Under investigation.

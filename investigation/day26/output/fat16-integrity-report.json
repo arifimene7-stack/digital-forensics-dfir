@@ -1,0 +1,8 @@
+{
+    "original": "disk-forensics/day6/source/filesystem-lab.img",
+    "working_copy": "disk-forensics/day8/working/filesystem-analysis.img",
+    "original_sha256": "5e1bdc964fc6ec43e955c67a07b01df76e2cec234e16f648b1d676c2fe4ceeef",
+    "working_sha256": "5e1bdc964fc6ec43e955c67a07b01df76e2cec234e16f648b1d676c2fe4ceeef",
+    "match": true,
+    "generated_utc": "2026-11-01T00:31:48.068824+00:00"
+}

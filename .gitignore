@@ -24,3 +24,29 @@ memory-forensics/day8/live-triage/
 memory-forensics/day8/process-analysis/
 
 # Local machine-specific reports
+
+# Sensitive or locally derived forensic artifacts
+disk-forensics/day12/source/browser-history.db
+disk-forensics/day12/working/browser-history.db
+disk-forensics/day11/analysis/ext4-journal.bin
+disk-forensics/day13/recovered/audit.txt
+
+# Local audit logs
+audit.txt
+
+# Forensic disk images
+*.img
+*.raw
+*.dd
+*.E01
+
+# Forensic binary artifacts
+*.bin
+
+# Forensic databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Recovered local audit artifacts
+audit.txt

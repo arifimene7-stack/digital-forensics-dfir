@@ -1,0 +1,11 @@
+artifact,observation,evidence_source,interpretation,limitation
+Filesystem,FAT16,fsck.fat -vn,Filesystem identified,Training image only
+Sector Size,512 bytes,fsck.fat and boot sector,Logical sector size,Does not establish physical device sector size
+Cluster Size,2048 bytes,fsck.fat,Four sectors per cluster,Filesystem allocation unit
+FAT Tables,2,fsck.fat,Two FAT copies present,No independent corruption test performed
+Directory,3 regular files,mdir,Three files listed in root directory,Volume label is separate metadata
+case.txt,26 bytes and cluster 2,mtype and mshowfat,Case reference sample,Training content
+events.log,38 bytes and cluster 3,mtype and mshowfat,Contains a suspicious-activity statement,Not proof of malicious activity
+login.txt,36 bytes and cluster 4,mtype and mshowfat,Login investigation sample,Training content
+Boot Sector,OEM mkfs.fat,xxd,Filesystem boot-sector metadata,Only first 128 bytes inspected
+Volume Label,DFIR_LAB,mdir,Volume identification label,Not a regular file

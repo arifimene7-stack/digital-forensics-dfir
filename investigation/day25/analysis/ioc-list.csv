@@ -1,0 +1,7 @@
+IOC_ID,Indicator,Indicator_Type,Source,Confidence,Classification,Recommended_Action
+IOC-01,Firefox process PID 5603,Process ID,Day16 and Day18 reports,High,Contextual observation,Correlate with process tree and executable path
+IOC-02,Firefox executable under /snap/firefox/,Executable path,Day16 process analysis,High,Expected application context,Verify package provenance if suspicious behavior appears
+IOC-03,192.168.145.169 local address,IP address,Day17 network analysis,High,Local network context,Do not classify as malicious
+IOC-04,Remote HTTPS endpoints observed in snapshot,Network endpoints,Day17 network analysis,Low,Unverified external connections,Reassess only with DNS and packet evidence
+IOC-05,Historical host-events.log hash mismatch,SHA256 discrepancy,Integrity report and Day23 analysis,High,Documented redaction discrepancy,Maintain separate historical and redacted manifests
+IOC-06,NTFS timestamp inconsistency,Filesystem metadata,Day10 NTFS analysis,Medium,Unresolved metadata discrepancy,Preserve MFT evidence and avoid unsupported attribution

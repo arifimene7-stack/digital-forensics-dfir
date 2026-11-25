@@ -1,0 +1,2 @@
+debugfs 1.47.2 (1-Jan-2025)
+Journal starts at block 0, transaction 1

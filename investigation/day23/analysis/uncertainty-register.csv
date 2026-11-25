@@ -1,0 +1,12 @@
+ID,Issue,Observation,Impact,Classification,Confidence
+U-01,Historical hash mismatch,Current host-events.log copies hash to d859f943 while historical manifest records ee5bd815,Historical integrity verification fails for the current redacted files,Documented change,High
+U-02,Unknown timestamps,Three timeline events have UNKNOWN timestamps,Exact chronological ordering cannot be established,Missing data,High
+U-03,FAT16 timestamp precision,FAT timestamps have limited precision,Exact event times may be uncertain,Technical limitation,High
+U-04,Independent datasets,Timeline combines independent synthetic training datasets,Cannot establish one real incident or causal relationship,Context limitation,High
+U-05,Missing RAM image,No forensic memory image is available,Memory-resident artifacts remain unexamined,Missing evidence,High
+U-06,Missing packet capture,No packet capture is available,Network payload and communication details cannot be verified,Missing evidence,High
+U-07,Uninterpreted filesystem logs,NTFS LogFile and ext4 journal did not provide detailed transaction events,Historical filesystem activity remains limited,Analysis limitation,High
+U-08,File carving scope,Carving test used a minimal PDF and did not test fragmentation,Recovery capability for fragmented files is unknown,Test limitation,High
+U-09,NTFS timestamp discrepancy,MFT timestamp fields showed an inconsistency,Timestamp interpretation requires caution,Observed inconsistency,High
+U-10,Source authenticity,SHA256 comparison establishes content equality but not source authenticity,Original source reliability cannot be established by hashing alone,Methodological limitation,High
+U-11,Live triage time,Live triage capture timestamp is not the occurrence time of every recorded activity,Activity chronology cannot be inferred from capture time alone,Interpretation limitation,High
