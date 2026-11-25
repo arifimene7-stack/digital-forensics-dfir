@@ -48,7 +48,7 @@ Month 2 — Digital Forensics & Incident Response
 - Results apply only to the evidence examined in this project.
 
 ## Final Assessment
-The ten-day training project and its documented deliverables are complete,
+The 28-day training project and its documented deliverables are complete,
 with the memory-forensics limitation explicitly recorded.
 
 The project demonstrates practical work in evidence integrity,
